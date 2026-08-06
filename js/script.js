@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Typing Engine
     const typingElement = document.querySelector('.typing-target');
-    const phrases = ["Acrylic Art", "Luxury Signage", "Corporate Identity", "UV Perfection"];
+    const phrases = ["UV Printing", "Acrylic Art", "Customized Gifts", "Glass & Wood Prints"];
     let phraseIdx = 0, charIdx = 0, isDeleting = false;
 
     const runTyping = () => {
